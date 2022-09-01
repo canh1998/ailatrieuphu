@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/cardview_light_background"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0D47A1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="About"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Who want to be a millionaire "
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="By: Canhmai36g1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Version: 1.0.0"
+        android:textColor="@color/black" />
+
+
+
+    <TextView
+        android:id="@+id/tv_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Contact via Facebook"
+        android:textColor="#303F9F"
+        android:textStyle="italic|bold" />
+
+</LinearLayout>
+
+
